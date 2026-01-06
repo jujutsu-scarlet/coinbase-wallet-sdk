@@ -44,6 +44,16 @@
    npm list @coinbase/wallet-sdk
    ```
 
+## Local setup
+
+### Configuration
+
+Before running the project locally, create a `.env` file by copying the template:
+
+```bash
+cp .env.example .env
+```
+
 ### Upgrading Wallet SDK
 
 > Migrating from v3 to v4? Please see our [v4 migration guide](https://www.smartwallet.dev/sdk/v3-to-v4-changes) for a full list of breaking changes.
